@@ -46,7 +46,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ##### Clone repository
 ```bash
-git clone XXXXXX
+git clone git@github.com:joselaral/p1-navigation-solution-drl.git
 ```
 
 ##### Install using Miniconda3
@@ -59,7 +59,7 @@ conda activate drlnd
 ##### Installing using Python 3.6.13
 Windows
 ``` bash
-cd /DRL-QLearning-Udacity-Solution
+cd /p1-navigation-solution-drl
 python3 -m venv venv 
 venv/Scripts/activate
 python pyp install -r requirements.txt
@@ -67,7 +67,7 @@ python pyp install -r requirements.txt
 
 Linux
 ``` bash
-cd /DRL-QLearning-Udacity-Solution
+cd /p1-navigation-solution-drl
 python3 -m venv venv 
 source venv/Scripts/activate
 python pip install requirements.txt
