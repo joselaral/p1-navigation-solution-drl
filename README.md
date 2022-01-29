@@ -2,21 +2,18 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
+### Project 1: Problem Statement
 
-### Introduction
+The goal of this project is to train an agent to navigate a Unity environment to maximize rewards. To maximize reward, the agent must collect as many yellow bananas as possible while avoiding blue bananas in Unity’s Banana environment. 
+Using a Deep Q Network, based on Pytorch library, and Deep Q Learning algorithm, a final set of optimized weights must generate an optimal solution. The RL agent based of these weights must be able to average a reward of at least 13, over 100 episodes. 
 
-DRL-QLearning-Udacity-Solution is the a repository that solves the first project in the Udacity's Deep Reinfocement Learning Course. Using Q Learning 
-
-
-### Problem Statement
-
-#### Project 1: Navigation
-
+You can view the trained agent in the following video:
+<video src='https://youtu.be/MOz6D0dSNLA' width=180/>
 
 
 #### Environment Notes
 
-![Trained Agent][Benchmark]
+![Trained Agent][image1]
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
@@ -27,11 +24,6 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`3`** - turn right.
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
-
-
-#### Implementation Notes
-
-
 
 
 ### Getting Started
@@ -84,24 +76,28 @@ python pip install requirements.txt
 
 ### Repository Content
 
-
-
-model.pyp
-Neural Network using pytoch library
+model.py
+- Deep Q Network model using pytorch library
 
 DQN_Agent
-Agent that interacts with environment and udpates Neural network weights.
+- Agent that interacts with environment and udpates Neural network weights.
 
 main.py
 - Runs main environment and environment interatcion
-- Stores average reward scores
-- Plots results
+- Pltos average reward scores
+- Saves optimized trained weights for Deep Q Network 
+- Update path to Banana environment download
 
+test.py
+- Runs test on Unity environtment using trained weight
 
-### Training Q Learning Agent
+images
+- images used in report
 
+trained_data
+- optimized_weights_ddqn.pth: Trained weights using
 
-
-
-
+P1 Navigation Report.pde
+- Final report
 ### 
+
