@@ -7,8 +7,7 @@
 The goal of this project is to train an agent to navigate a Unity environment to maximize rewards. To maximize reward, the agent must collect as many yellow bananas as possible while avoiding blue bananas in Unity’s Banana environment. 
 Using a Deep Q Network, based on Pytorch library, and Deep Q Learning algorithm, a final set of optimized weights must generate an optimal solution. The RL agent based of these weights must be able to average a reward of at least 13, over 100 episodes. 
 
-You can view the trained agent in the following video:
-<video src='https://youtu.be/MOz6D0dSNLA' width=180/>
+You can view the trained agent in the following video: [click here](https://youtu.be/MOz6D0dSNLA)
 
 
 #### Environment Notes
