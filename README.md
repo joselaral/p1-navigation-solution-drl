@@ -56,23 +56,6 @@ conda env create -f environment.yml
 conda activate drlnd
 ```
 
-##### Installing using Python 3.6.13
-Windows
-``` bash
-cd /p1-navigation-solution-drl
-python3 -m venv venv 
-venv/Scripts/activate
-python pyp install -r requirements.txt
-```
-
-Linux
-``` bash
-cd /p1-navigation-solution-drl
-python3 -m venv venv 
-source venv/Scripts/activate
-python pip install requirements.txt
-```
-
 ### Repository Content
 
 model.py
