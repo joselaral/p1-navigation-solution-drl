@@ -51,7 +51,7 @@ git clone git@github.com:joselaral/p1-navigation-solution-drl.git
 
 ##### Install using Miniconda3
 ``` bash
-cd /DRL-QLearning-Udacity-Solution
+cd path/to/p1-navigation-solution-drl.git
 conda env create -f environment.yml
 conda activate drlnd
 ```
